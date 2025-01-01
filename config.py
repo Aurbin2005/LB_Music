@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "8107605197"))
+OWNER_ID = int(getenv("OWNER_ID", 8107605197))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aurbineditz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Singingwithaurbin")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+0dAGo7oO9mdhMDE9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -90,10 +90,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/46e1ddb2dbec41c90f7be-648ed1838f91794c57.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://graph.org/file/46e1ddb2dbec41c90f7be-648ed1838f91794c57.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/2ed8a1ae8298a6d573acf-9f4d47a4c6854d4aa4.jpg"
